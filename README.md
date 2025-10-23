@@ -1,59 +1,86 @@
-# 🎮 GAMES DATABASE
+# 🌐 ConectaONG
 
-## 👥 Integrantes da Equipe
-- Abner Eduardo de Brito Torres  
-- João Vitor Souza Santiago
+> **Portal de Informações e Discussão sobre Organizações Sem Fins Lucrativos**
 
----
-
-## 🌍 ODS Selecionado
-**ODS 9 – Indústria, Inovação e Infraestrutura**  
-O projeto se relaciona com este ODS ao promover a inovação tecnológica no setor de entretenimento digital, por meio da criação de uma plataforma informativa e interativa sobre o universo dos videogames.
+## 👥 Integrantes
+- **João Vitor Souza Santiago** — RA: a2767082  
+- **Abner Eduardo de Brito Torres** — RA: a2766930  
 
 ---
 
-## 📝 Descrição do Projeto
-O **Games Database** é um site voltado ao público gamer, que reúne informações, curiosidades e recursos sobre jogos de diversos gêneros.  
-O projeto busca ser um ponto de encontro para os fãs, permitindo **conhecer novos títulos**, **discutir sobre jogos** e **acessar rapidamente links para compra** em diferentes plataformas.
+## 🧩 Descrição do Projeto
+O **ConectaONG** é um site informativo e interativo voltado à **divulgação e valorização de ONGs** (Organizações Não Governamentais) que atuam em diferentes causas sociais.  
+Seu principal objetivo é **conectar pessoas interessadas em contribuir com ações sociais**, facilitando o acesso às informações de cada ONG e criando um espaço colaborativo por meio de um **fórum de comentários**.
 
-### Objetivos Específicos
-a) Informar e divulgar jogos pouco conhecidos pela comunidade.  
-b) Incentivar a comunicação e interação entre fãs de determinados jogos.  
-c) Auxiliar na obtenção dos jogos em diferentes plataformas.  
-d) Espalhar curiosidades e informações sobre o mundo dos games.
+A página inicial apresenta uma **grid com 10 ONGs**, cada uma com:
+- Nome, imagem e breve descrição  
+- Ao clicar, é exibida uma caixa com mais detalhes, links e redes sociais  
 
----
-
-## 🧩 Estrutura do Projeto
-O site conta com as seguintes seções e funcionalidades:
-
-- **Página inicial:** destaque para jogos populares e novos lançamentos.  
-- **Categorias:** jogos divididos por gênero e estilo (ação, aventura, RPG, esportes etc).  
-- **Fórum:** espaço de interação entre fãs para troca de opiniões e informações.  
-- **Hiperlinks externos:** redirecionamentos para compra dos jogos em plataformas oficiais.  
-- **Pesquisa:** campo para busca de jogos específicos.  
-- **Conteúdo multimídia:** vídeos, imagens e reviews sobre cada jogo.  
+Além disso, há:
+- Uma **seção de fórum** com comentários simulados  
+- **Página de cadastro e login** para simulação de área do usuário  
 
 ---
 
-## 💻 Tecnologias Utilizadas
-- HTML5  
-- CSS3  
-- JavaScript   
-- GitHub Pages – para hospedagem do site  
+## 📄 Estrutura do Projeto
+
+### 🏠 Página Principal (`index.html`)
+- Cabeçalho com logotipo e menu de navegação  
+- Seção de destaque com a missão do portal  
+- Grid responsiva com 10 ONGs  
+- Rodapé com links para os currículos dos integrantes  
+
+### 🧾 Página de ONGs
+- Exibição detalhada da ONG selecionada  
+- Links para o site oficial e redes sociais  
+
+### 💬 Fórum
+- Campo para comentários (simulado com HTML/CSS)  
+- Exemplo de interações entre visitantes  
+
+### 📝 Cadastro
+- Formulário com campos obrigatórios:  
+  Nome, E-mail, Senha, Confirmação de Senha, Área de Interesse  
+- Botão que redireciona para a página de login  
+
+### 🔐 Login
+- Campos de autenticação (simulada)  
+- Botão para acesso à área do usuário  
 
 ---
 
-## 👨‍💻 Autor
-**Abner Eduardo de Brito Torres, RA: 2766930 - João Vitor de Souza Santiago, RA:2767082**  
-Curso: Análise e Desenvolvimento de Sistemas  
-Campus: UTFPR – Cornélio Procópio  
-Orientador: Professor Gabriel Canhadas 
-Ano: 2025  
+## 🎯 Objetivo Geral
+Desenvolver uma **página web informativa e interativa** sobre ONGs que promova a conscientização e o engajamento social, aplicando os conhecimentos de **HTML e CSS**.
 
 ---
 
-## 📝 Licença
-Este projeto foi desenvolvido com fins **educacionais**, para apresentação acadêmica no curso de **Análise e Desenvolvimento de Sistemas** da UTFPR.
+## 🧠 Objetivos Específicos
+- Criar um **layout responsivo** com HTML semântico e CSS  
+- Aplicar **cores, fontes e ícones** de forma harmônica e acessível  
+- Exibir informações organizadas em uma **grid de ONGs**  
+- Implementar **formulário de cadastro completo**  
+- Adicionar **rodapé com links** para currículos dos integrantes  
+- Cumprir os **requisitos técnicos e estéticos** definidos na disciplina  
 
 ---
+
+## 🌱 ODS Atendido
+**ODS 17 – Parcerias e Meios de Implementação**
+
+O projeto contribui para **fortalecer parcerias** entre organizações e comunidades, promovendo o **acesso à informação e o engajamento social** em causas sustentáveis.
+
+---
+
+## 🧰 Tecnologias Utilizadas
+- **HTML5**
+- **CSS3**
+- **Visual Studio Code**
+- **GitHub Pages** (para hospedagem)
+
+---
+
+## 🚀 Como Executar o Projeto
+1. Faça o download ou clone o repositório:  
+   ```bash
+   git clone https://github.com/usuario/conectaong.git
+
