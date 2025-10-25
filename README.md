@@ -82,5 +82,5 @@ O projeto contribui para **fortalecer parcerias** entre organizações e comunid
 ## 🚀 Como Executar o Projeto
 1. Faça o download ou clone o repositório:  
    ```bash
-   git clone https://github.com/usuario/conectaong.git
+   git clone https://github.com/abnerproo/conectaong.git
 
